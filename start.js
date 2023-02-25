@@ -4,7 +4,7 @@ const fs = require('fs');
 const bot = new Telegraf(process.env.NodeToken);
 
 bot.use(session());
-bot.use(stage.middleware());
+// bot.use(stage.middleware());
 
 bot.command('test', async ctx => {
   // console.log(ctx.tg)
