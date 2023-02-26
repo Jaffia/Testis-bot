@@ -1,7 +1,7 @@
 const {Telegraf, Markup, Scenes, session} = require('telegraf');
 require('dotenv').config();
 const fs = require('fs');
-const bot = new Telegraf(process.env.NodeToken);
+const bot = new Telegraf(process.env.TOKEN);
 
 bot.use(session());
 // bot.use(stage.middleware());
